@@ -1,0 +1,31 @@
+from django.urls import path
+from main.views import *
+
+urlpatterns = [
+    path('/',get_Banner),
+    path('/',get_Navbar),
+    path('/',get_News),
+    path('/',get_Game_schedule),
+    path('/',get_Calendar),
+    path('/',get_Schedule),
+    path('/',get_Youtube),
+    path('/',get_Player_statistics),
+    path('/',get_Shop_1),
+    path('/',get_Stadium_photo),
+    path('/',get_Arena_history2),
+    path('/',get_Stadium),
+    path('/',get_Partners),
+    path('/',get_Team_members),
+    path('/',get_Management),
+    path('/',get_Coach),
+    path('/',get_Club_info),
+    path('/',get_Club_history),
+    path('/',get_Arena_history3),
+    path('/',get_Recommendations),
+    path('/',get_Academy),
+    path('/',get_Training),
+    path('/',get_Shop_2),
+    path('/',get_Shop_3),
+    path('/',get_About_shop),
+    path('/',get_Arena_history),
+]
